@@ -32,12 +32,9 @@ def prime_num_rep(num):
                 
     return False
 
-for i in range(3,1000001):
-    if i % 2 == 0:
+for i in range(4,1000001,2):
         # check if i canbe represented by two prime number
-        if prime_num_rep(i):
-            print(f"{i} can be represented by two prime number")
-        else:
+        if prime_num_rep(i)==False:
             print(f"Finally this is the number {i}")
             break
 print("This is the end")     
