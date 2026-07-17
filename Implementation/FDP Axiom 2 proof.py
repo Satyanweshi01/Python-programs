@@ -9,7 +9,7 @@ TRIALS= 10000
 
 x = [] # for number of trials
 y = [] # for relative frequency
-
+print(1)
 
 for trial in range(1, TRIALS + 1):
     trial_result = random.choice(outcome)

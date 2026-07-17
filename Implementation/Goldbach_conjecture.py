@@ -28,7 +28,6 @@ def prime_num_rep(num):
             #         if j + k == num:
             #             return True
 
-        
                 
     return False
 
