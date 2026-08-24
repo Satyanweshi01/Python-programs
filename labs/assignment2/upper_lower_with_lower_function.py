@@ -3,7 +3,7 @@
 a = input("Enter the string: ")
 b=""
 for ch in a:
-    if ch.isalpha():
+    if ch.isupper():
         new_char = chr(ord(ch)+32) 
         b+=new_char
     else:
