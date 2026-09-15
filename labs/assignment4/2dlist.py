@@ -9,4 +9,7 @@ for i in range(m):
         l = input("Enter data: ")
         k.append(l)
     s.append(k)
-print(s)
+for i in s:
+    for j in i:
+        print(j,end=" ")
+    print()
